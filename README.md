@@ -55,7 +55,7 @@ This document describes installation, usage, configuration, reporting, and contr
 
 ```bash
 # Download latest release (example)
-wget https://github.com/your-org/privesc/releases/latest/download/privesc-linux-amd64 -O privesc
+wget https://github.com/burakcanbalta/privesc/releases/latest/download/privesc-linux-amd64 -O privesc
 chmod +x privesc
 sudo mv privesc /usr/local/bin/privesc
 ```
@@ -63,7 +63,7 @@ sudo mv privesc /usr/local/bin/privesc
 ### Build from source
 
 ```bash
-git clone https://github.com/your-org/privesc.git
+git clone https://github.com/burakcanbalta/privesc.git
 cd privesc
 go mod download
 go build -o privesc main.go
